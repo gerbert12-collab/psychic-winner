@@ -38,4 +38,4 @@ def update_graph(selected_families):
     return build_figure(visible_families=selected_families)
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+app.run_server(host='0.0.0.0', port=10000)
