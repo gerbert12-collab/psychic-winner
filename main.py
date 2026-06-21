@@ -37,5 +37,6 @@ app.layout = html.Div([
 def update_graph(selected_families):
     return build_figure(visible_families=selected_families)
 
-if __name__ == '__main__':
-app.run_server(host='0.0.0.0', port=10000)
+	if __name__ == '__main__':
+    # This line must be indented with 4 spaces or 1 tab
+    app.run_server(host='0.0.0.0', port=10000)
